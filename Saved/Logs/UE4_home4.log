@@ -1,0 +1,1661 @@
+﻿Log file open, 11/06/21 11:52:31
+LogInit: Display: Running engine for game: UE4_home4
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.099219
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-0
+LogInit: Engine Version: 4.25.3-0+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-0+++UE4+Release-4.25
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: NVIDIA GeForce GTX 1660 Ti
+LogInit: Compiled (64-bit): Oct 11 2021 22:04:48
+LogInit: Compiled with Visual C++: 19.16.27045.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: H:/UnrealEngine/UnrealEngine/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [H:/UE4_home4/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [H:/UE4_home4/Saved/Config/Windows/Engine.ini]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [H:/UE4_home4/Saved/Config/Windows/Engine.ini]
+[2021.11.06-03.52.31:902][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [H:/UE4_home4/Saved/Config/Windows/Engine.ini]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [H:/UE4_home4/Saved/Config/Windows/Engine.ini]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.11.06-03.52.31:902][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [H:/UE4_home4/Saved/Config/Windows/Engine.ini]
+[2021.11.06-03.52.31:902][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [H:/UE4_home4/Saved/Config/Windows/Engine.ini]
+[2021.11.06-03.52.31:905][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:905][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.06-03.52.31:905][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.06-03.52.31:905][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:905][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.06-03.52.31:905][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:905][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.06-03.52.31:905][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.11.06-03.52.31:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.11.06-03.52.31:907][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.06-03.52.31:907][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.11.06-03.52.31:907][  0]LogHAL: Display: Platform has ~ 16 GB [17051144192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.11.06-03.52.31:907][  0]LogInit: Going up to parent DeviceProfile []
+[2021.11.06-03.52.31:907][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.06-03.52.31:907][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [H:/UE4_home4/Saved/Config/Windows/Scalability.ini]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.11.06-03.52.31:908][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [H:/UE4_home4/Saved/Config/Windows/Engine.ini]
+[2021.11.06-03.52.31:908][  0]LogInit: Computer: LAPTOP-TJ1QS0DV
+[2021.11.06-03.52.31:908][  0]LogInit: User: 精灵王
+[2021.11.06-03.52.31:908][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.11.06-03.52.31:908][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.11.06-03.52.31:909][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.11.06-03.52.31:909][  0]LogMemory: Platform Memory Stats for Windows
+[2021.11.06-03.52.31:909][  0]LogMemory: Process Physical Memory: 117.61 MB used, 117.61 MB peak
+[2021.11.06-03.52.31:909][  0]LogMemory: Process Virtual Memory: 106.23 MB used, 106.23 MB peak
+[2021.11.06-03.52.31:909][  0]LogMemory: Physical Memory: 9354.82 MB used,  6906.42 MB free, 16261.24 MB total
+[2021.11.06-03.52.31:909][  0]LogMemory: Virtual Memory: 5187.39 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2021.11.06-03.52.31:915][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.11.06-03.52.31:989][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.11.06-03.52.31:990][  0]LogInit: Using OS detected language (zh-CN).
+[2021.11.06-03.52.31:990][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.11.06-03.52.31:992][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2021.11.06-03.52.32:087][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2021.11.06-03.52.32:087][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2021.11.06-03.52.32:087][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2021.11.06-03.52.32:087][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2021.11.06-03.52.32:087][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2021.11.06-03.52.32:087][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2021.11.06-03.52.32:087][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2021.11.06-03.52.32:087][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2021.11.06-03.52.32:088][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2021.11.06-03.52.32:088][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2021.11.06-03.52.32:088][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2021.11.06-03.52.32:138][  0]LogInit: Setting process to per monitor DPI aware
+[2021.11.06-03.52.32:168][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.11.06-03.52.32:168][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.11.06-03.52.32:344][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.06-03.52.32:344][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.11.06-03.52.32:344][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.11.06-03.52.32:344][  0]LogD3D11RHI: D3D11 adapters:
+[2021.11.06-03.52.32:458][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2021.11.06-03.52.32:458][  0]LogD3D11RHI:       5991/0/8130 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.11.06-03.52.32:460][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.11.06-03.52.32:460][  0]LogD3D11RHI:       0/0/8130 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.11.06-03.52.32:460][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.11.06-03.52.32:467][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.11.06-03.52.32:467][  0]LogD3D11RHI:     GPU DeviceId: 0x2191 (for the marketing name, search the web for "GPU Device Id")
+[2021.11.06-03.52.32:467][  0]LogWindows: EnumDisplayDevices:
+[2021.11.06-03.52.32:467][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2021.11.06-03.52.32:467][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.11.06-03.52.32:468][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.11.06-03.52.32:468][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.11.06-03.52.32:468][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.11.06-03.52.32:468][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2021.11.06-03.52.32:468][  0]LogD3D11RHI:   Driver Version: 462.80 (internal:27.21.14.6280, unified:462.80)
+[2021.11.06-03.52.32:468][  0]LogD3D11RHI:      Driver Date: 6-9-2021
+[2021.11.06-03.52.32:468][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.11.06-03.52.32:549][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.11.06-03.52.32:551][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2021.11.06-03.52.32:551][  0]LogD3D11RHI: Async texture creation enabled
+[2021.11.06-03.52.32:551][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.11.06-03.52.32:566][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.11.06-03.52.33:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.11.06-03.52.33:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.11.06-03.52.33:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.11.06-03.52.33:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.11.06-03.52.33:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.11.06-03.52.33:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.11.06-03.52.33:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.11.06-03.52.33:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.11.06-03.52.33:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.11.06-03.52.33:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.11.06-03.52.33:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.11.06-03.52.33:163][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.11.06-03.52.33:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'XXX'
+[2021.11.06-03.52.33:171][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.11.06-03.52.33:177][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.11.06-03.52.33:230][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (../../../../../UE4_home4/Intermediate/Shaders/WorkingDirectory/19708/).
+[2021.11.06-03.52.33:231][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/精灵王/AppData/Local/Temp/UnrealShaderWorkingDir/98F5F4534EE924F15C0075AB14362673/'.
+[2021.11.06-03.52.33:231][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.11.06-03.52.33:231][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.11.06-03.52.33:231][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.11.06-03.52.33:927][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.11.06-03.52.34:111][  0]LogDerivedDataCache: Loaded boot cache 0.18s 76MB ../../../../../UE4_home4/DerivedDataCache/Boot.ddc.
+[2021.11.06-03.52.34:111][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../UE4_home4/DerivedDataCache/Boot.ddc
+[2021.11.06-03.52.34:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE4_home4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.11.06-03.52.34:111][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.11.06-03.52.34:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.11.06-03.52.34:111][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2021.11.06-03.52.34:113][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2021.11.06-03.52.34:113][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.11.06-03.52.34:113][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.11.06-03.52.34:158][  0]LogSlate: Using FreeType 2.10.0
+[2021.11.06-03.52.34:158][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.06-03.52.34:186][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2021.11.06-03.52.34:386][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.06-03.52.34:485][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.11.06-03.52.34:485][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.11.06-03.52.34:485][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.11.06-03.52.34:485][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.11.06-03.52.34:485][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.11.06-03.52.34:499][  0]LogNetVersion: UE4_home4 1.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2778778551)
+[2021.11.06-03.52.34:920][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000016BE8085C40), frame # 0
+[2021.11.06-03.52.34:920][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016BE7FD9E40), frame # 0
+[2021.11.06-03.52.34:921][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016BE8029C00), frame # 0
+[2021.11.06-03.52.34:985][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.059495 seconds
+[2021.11.06-03.52.34:989][  0]LogUObjectArray: 15903 objects as part of root set at end of initial load.
+[2021.11.06-03.52.34:989][  0]LogUObjectAllocator: 3962048 out of 0 bytes used by permanent object pool.
+[2021.11.06-03.52.34:989][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.11.06-03.52.35:293][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.11.06-03.52.35:297][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.11.06-03.52.35:365][  0]SourceControl: 源码管理已禁用
+[2021.11.06-03.52.35:365][  0]SourceControl: 源码管理已禁用
+[2021.11.06-03.52.35:368][  0]SourceControl: 源码管理已禁用
+[2021.11.06-03.52.35:371][  0]SourceControl: 源码管理已禁用
+[2021.11.06-03.52.35:378][  0]SourceControl: 源码管理已禁用
+[2021.11.06-03.52.35:605][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.11.06-03.52.35:623][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.06-03.52.35:623][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.06-03.52.35:667][  0]LogOcInput: OculusInput pre-init called
+[2021.11.06-03.52.35:678][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.11.06-03.52.35:678][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.11.06-03.52.35:730][  0]LogEngine: Initializing Engine...
+[2021.11.06-03.52.35:732][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.06-03.52.35:732][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.11.06-03.52.35:733][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.11.06-03.52.35:835][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.11.06-03.52.35:842][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.11.06-03.52.35:842][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016BEDDC8600), frame # 0
+[2021.11.06-03.52.35:842][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016BEDD7BB00), frame # 0
+[2021.11.06-03.52.35:862][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-03.52.35:862][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-03.52.35:862][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-03.52.35:862][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-03.52.35:862][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-03.52.35:862][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-03.52.35:862][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-03.52.35:862][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-03.52.35:862][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-03.52.35:862][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-03.52.35:878][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-03.52.35:878][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-03.52.35:912][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (Steam Streaming Speakers)
+[2021.11.06-03.52.35:915][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-03.52.35:917][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-03.52.35:917][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-03.52.35:917][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-03.52.35:918][  0]LogInit: FAudioDevice initialized.
+[2021.11.06-03.52.35:918][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.11.06-03.52.36:008][  0]LogDerivedDataCache: Saved boot cache 0.09s 76MB ../../../../../UE4_home4/DerivedDataCache/Boot.ddc.
+[2021.11.06-03.52.36:009][  0]LogInit: Texture streaming: Enabled
+[2021.11.06-03.52.36:024][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.11.06-03.52.36:024][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.11.06-03.52.36:026][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.11.06-03.52.36:060][  0]LogInit: Transaction tracking system initialized
+[2021.11.06-03.52.36:081][  0]BlueprintLog: New page: 编辑器加载
+[2021.11.06-03.52.36:140][  0]LocalizationService: 本地化服务已禁用
+[2021.11.06-03.52.36:891][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.11.06-03.52.36:892][  0]LogCook: Display: Mobile HDR setting 1
+[2021.11.06-03.52.37:008][  0]LogFileCache: Scanning file cache for directory 'H:/UE4_home4/Content/' took 0.01s
+[2021.11.06-03.52.37:307][  0]SourceControl: 源码管理已禁用
+[2021.11.06-03.52.37:307][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.614
+[2021.11.06-03.52.37:307][  0]Cmd: MAP LOAD FILE="../../../../../UE4_home4/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.06-03.52.37:308][  0]LightingResults: New page: 光照构建
+[2021.11.06-03.52.37:308][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.52.37:308][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.52.37:308][  0]MapCheck: New page: 地图检测
+[2021.11.06-03.52.37:308][  0]LightingResults: New page: 光照构建
+[2021.11.06-03.52.37:320][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016BEDDC8600), frame # 0
+[2021.11.06-03.52.37:320][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016BEDD7BB00), frame # 0
+[2021.11.06-03.52.37:320][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.11.06-03.52.37:493][  0]LogBlueprint: Warning: [Compiler MyGameMode] RecreatePinForVariable: 'PlayerName' pin not found
+[2021.11.06-03.52.37:494][  0]LogBlueprint: Warning: [Compiler MyGameMode] RecreatePinForVariable: 'Sc' pin not found
+[2021.11.06-03.52.37:676][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.06-03.52.37:676][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016BE256FE00), frame # 0
+[2021.11.06-03.52.37:676][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016BE2577B00), frame # 0
+[2021.11.06-03.52.37:687][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.06-03.52.37:700][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.11.06-03.52.37:700][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.06-03.52.37:700][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.087毫秒。
+[2021.11.06-03.52.37:700][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.393
+[2021.11.06-03.52.37:702][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.009
+[2021.11.06-03.52.37:780][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2021.11.06-03.52.37:860][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.52.37:867][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.52.37:874][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.52.37:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.52.37:897][  0]LogCollectionManager: Loaded 0 collections in 0.000860 seconds
+[2021.11.06-03.52.37:925][  0]LogFileCache: Scanning file cache for directory 'H:/UE4_home4/Saved/Collections/' took 0.00s
+[2021.11.06-03.52.37:925][  0]LogFileCache: Scanning file cache for directory 'H:/UE4_home4/Content/Developers/精灵王/Collections/' took 0.00s
+[2021.11.06-03.52.37:925][  0]LogFileCache: Scanning file cache for directory 'H:/UE4_home4/Content/Collections/' took 0.00s
+[2021.11.06-03.52.37:925][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3426 classes and 819 folders.
+[2021.11.06-03.52.37:933][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.11.06-03.52.38:486][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.11.06-03.52.38:491][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.11.06-03.52.38:689][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.11.06-03.52.38:689][  0]LogLoad: (Engine Initialization) Total time: 8.00 seconds
+[2021.11.06-03.52.38:689][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.11.06-03.52.38:753][  0]LogAssetRegistry: Asset discovery search completed in 4.5672 seconds
+[2021.11.06-03.52.38:756][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.11.06-03.52.38:758][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.11.06-03.52.38:764][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.11.06-03.52.38:766][  0]LogSlate: Took 0.001263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.11.06-03.52.38:766][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.11.06-03.52.38:769][  0]LogSlate: Took 0.000729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.11.06-03.52.38:770][  0]LogSlate: Took 0.000564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.11.06-03.52.38:911][  0]LogRenderer: Reallocating scene render targets to support 816x328 Format 10 NumSamples 1 (Frame:1).
+[2021.11.06-03.52.38:911][  0]LogSlate: Took 0.000769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.06-03.52.41:088][124]LogSlate: Window '输出日志' being destroyed
+[2021.11.06-03.52.41:093][124]LogSlate: Window '输出日志' being destroyed
+[2021.11.06-03.52.45:914][386]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.06-03.52.46:726][435]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2021.11.06-03.52.47:497][473]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyGameMode.MyGameMode
+[2021.11.06-03.52.47:939][473]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.11.06-03.52.48:895][473]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.11.06-03.52.49:042][474]LogSlate: Took 0.000905 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.11.06-03.52.58:175][ 17]BlueprintLog: New page: 编译MyGameMode
+[2021.11.06-03.52.58:226][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.11.06-03.53.01:076][185]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.53.01:081][185]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.53.01:081][185]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.53.01:081][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.53.04:609][392]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyGameMode.MyGameMode
+[2021.11.06-03.53.25:773][627]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.53.25:778][627]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.53.25:779][627]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.53.25:779][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.53.30:193][888]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Begin_Widget/Final_List.Final_List
+[2021.11.06-03.53.31:492][926]LogSlate: Window 'Final_List' being destroyed
+[2021.11.06-03.53.31:498][926]LogSlate: Window 'Final_List' being destroyed
+[2021.11.06-03.53.31:506][926]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.53.31:506][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.53.31:510][926]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.53.31:510][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.53.32:625][989]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Begin_Widget/MyHUD.MyHUD
+[2021.11.06-03.53.40:320][411]LogSlate: Window 'MyHUD' being destroyed
+[2021.11.06-03.53.40:326][411]LogSlate: Window 'MyHUD' being destroyed
+[2021.11.06-03.53.40:328][411]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.53.40:328][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.53.40:332][411]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.53.40:332][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.53.43:309][587]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Begin_Widget/MyHUD.MyHUD
+[2021.11.06-03.53.55:398][289]LogSlate: Window 'MyHUD' being destroyed
+[2021.11.06-03.53.55:404][289]LogSlate: Window 'MyHUD' being destroyed
+[2021.11.06-03.53.55:406][289]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.53.55:406][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.53.55:410][289]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.53.55:410][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.54.03:837][789]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Begin_Widget/Final_List.Final_List
+[2021.11.06-03.54.05:581][874]LogSlate: Window 'Final_List' being destroyed
+[2021.11.06-03.54.05:586][874]LogSlate: Window 'Final_List' being destroyed
+[2021.11.06-03.54.05:587][874]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.54.05:587][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.54.05:592][874]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.54.05:592][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.54.07:428][980]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Begin_Widget/MyHUD.MyHUD
+[2021.11.06-03.54.19:386][662]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyGameMode.MyGameMode
+[2021.11.06-03.54.29:018][219]BlueprintLog: New page: 编译MyGameMode
+[2021.11.06-03.54.29:123][219]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.11.06-03.54.29:623][246]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.54.29:628][246]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.54.29:630][246]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.54.29:630][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.54.29:633][246]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.54.29:633][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.54.29:678][246]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.54.29:678][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.54.30:836][313]LogTemp: Repeating last play command: 选中的视口
+[2021.11.06-03.54.30:855][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.06-03.54.30:857][313]PIE: New page: PIE会话：FirstPersonExampleMap（2021年11月6日 下午7:54:30）
+[2021.11.06-03.54.30:859][313]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.11.06-03.54.30:861][313]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.11.06-03.54.30:862][313]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.06-03.54.30:878][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015294s)
+[2021.11.06-03.54.30:880][313]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.06-03.54.30:880][313]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016C275C9800), frame # 6313
+[2021.11.06-03.54.30:880][313]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016C27C0A5C0), frame # 6313
+[2021.11.06-03.54.30:880][313]LogPlayLevel: PIE: World Init took: (0.001949s)
+[2021.11.06-03.54.30:881][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017837s)
+[2021.11.06-03.54.30:930][313]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.11.06-03.54.30:932][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-03.54.30:932][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-03.54.30:932][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-03.54.30:932][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-03.54.30:932][313]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-03.54.30:932][313]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-03.54.30:932][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-03.54.30:932][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-03.54.30:932][313]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-03.54.30:932][313]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-03.54.30:940][313]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-03.54.30:940][313]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-03.54.30:953][313]LogAudioMixer: Display: Using Audio Device 扬声器 (Steam Streaming Speakers)
+[2021.11.06-03.54.30:953][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-03.54.30:953][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-03.54.30:953][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-03.54.30:954][313]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-03.54.30:964][313]LogInit: FAudioDevice initialized.
+[2021.11.06-03.54.30:977][313]LogLoad: Game class is 'MyGameMode_C'
+[2021.11.06-03.54.30:979][313]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.11.06-11.54.30
+[2021.11.06-03.54.30:980][313]LogWorld: Bringing up level for play took: 0.001918
+[2021.11.06-03.54.30:980][313]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.11.06-03.54.30:997][313]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.11.06-03.54.30:997][313]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.54.30:997][313]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.54.30:997][313]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.54.30:999][313]LogBlueprintUserMessages: [MyGameMode_C_0] failure
+[2021.11.06-03.54.31:007][313]LogScript: Warning: Script Msg: SetTimer passed a negative or zero time.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2021.11.06-03.54.31:007][313]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] Hello
+[2021.11.06-03.54.31:007][313]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.54.31:007][313]PIE: 登陆的服务器
+[2021.11.06-03.54.31:009][313]PIE: PIE总开始时间：0.16秒。
+[2021.11.06-03.54.34:422][500]LogBlueprintUserMessages: [Begin_C_0] z
+[2021.11.06-03.54.34:769][521]LogBlueprintUserMessages: [Begin_C_0] z'l
+[2021.11.06-03.54.35:020][536]LogBlueprintUserMessages: [Begin_C_0] z'l'h
+[2021.11.06-03.54.35:136][543]LogBlueprintUserMessages: [Begin_C_0] zlh
+[2021.11.06-03.54.35:136][543]LogBlueprintUserMessages: [Begin_C_0] zlh
+[2021.11.06-03.54.36:869][647]LogBlueprintUserMessages: [MyGameMode_C_0] failure
+[2021.11.06-03.54.41:042][896]LogBlueprintUserMessages: [qiuti_C_1] 1
+[2021.11.06-03.54.41:042][896]LogBlueprintUserMessages: [qiuti_C_1] zlh
+[2021.11.06-03.54.45:076][138]LogBlueprintUserMessages: [qiuti_C_3] 2
+[2021.11.06-03.54.45:076][138]LogBlueprintUserMessages: [qiuti_C_3] zlh
+[2021.11.06-03.54.51:876][546]LogBlueprintUserMessages: [qiuti_C_6] 3
+[2021.11.06-03.54.51:876][546]LogBlueprintUserMessages: [qiuti_C_6] zlh
+[2021.11.06-03.54.59:890][ 25]LogRenderer: Reallocating scene render targets to support 964x388 Format 10 NumSamples 1 (Frame:1706).
+[2021.11.06-03.55.01:151][ 99]LogBlueprintUserMessages: [MyGameMode_C_0] slotsuccess
+[2021.11.06-03.55.01:152][ 99]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.11.06-03.55.01:152][ 99]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.11.06-03.55.01:152][ 99]LogNet: Browse: /Game/SecondMap
+[2021.11.06-03.55.01:152][ 99]LogLoad: LoadMap: /Game/SecondMap
+[2021.11.06-03.55.01:152][ 99]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.06-03.55.01:154][ 99]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.55.01:154][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.01:242][ 99]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016C27C0A5C0), frame # 8099
+[2021.11.06-03.55.01:242][ 99]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016C275C9800), frame # 8099
+[2021.11.06-03.55.01:251][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.11.06-03.55.01:269][ 99]LogAIModule: Creating AISystem for world SecondMap
+[2021.11.06-03.55.01:269][ 99]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016B89E2E400), frame # 8099
+[2021.11.06-03.55.01:269][ 99]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016C09892AC0), frame # 8099
+[2021.11.06-03.55.01:269][ 99]LogLoad: Game class is 'MyGameMode_C'
+[2021.11.06-03.55.01:271][ 99]LogWorld: Bringing World /Game/UEDPIE_0_SecondMap.SecondMap up for play (max tick rate 60) at 2021.11.06-11.55.01
+[2021.11.06-03.55.01:271][ 99]LogWorld: Bringing up level for play took: 0.001622
+[2021.11.06-03.55.01:272][ 99]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.11.06-03.55.01:274][ 99]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.55.01:274][ 99]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.55.01:274][ 99]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.55.01:275][ 99]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.55.01:275][ 99]LogStreaming: Warning: Failed to read file '../../../../../UE4_home4/Saved/SaveGames/12.sav' error.
+[2021.11.06-03.55.01:277][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.55.01:277][ 99]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.55.01:277][ 99]LogLoad: Took 0.124816 seconds to LoadMap(/Game/SecondMap)
+[2021.11.06-03.55.04:075][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.55.04:075][265]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SecondMap
+[2021.11.06-03.55.04:075][265]LogWorld: UWorld::CleanupWorld for SecondMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.55.04:075][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.04:095][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.06-03.55.04:100][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.04:131][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.55.04:139][265]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016C09892AC0), frame # 8265
+[2021.11.06-03.55.04:139][265]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016B89E2E400), frame # 8265
+[2021.11.06-03.55.04:157][265]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.11.06-03.55.04:178][266]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.11.06-03.55.06:565][408]LogTemp: Repeating last play command: 选中的视口
+[2021.11.06-03.55.06:575][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.06-03.55.06:575][408]PIE: New page: PIE会话：FirstPersonExampleMap（2021年11月6日 下午7:55:06）
+[2021.11.06-03.55.06:575][408]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.06-03.55.06:585][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009773s)
+[2021.11.06-03.55.06:586][408]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.06-03.55.06:587][408]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016C0C109C00), frame # 8408
+[2021.11.06-03.55.06:588][408]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016C269E5F80), frame # 8408
+[2021.11.06-03.55.06:588][408]LogPlayLevel: PIE: World Init took: (0.003459s)
+[2021.11.06-03.55.06:588][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013519s)
+[2021.11.06-03.55.06:607][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.11.06-03.55.06:609][408]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-03.55.06:609][408]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-03.55.06:609][408]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-03.55.06:609][408]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-03.55.06:609][408]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-03.55.06:609][408]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-03.55.06:609][408]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-03.55.06:609][408]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-03.55.06:610][408]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-03.55.06:610][408]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-03.55.06:619][408]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-03.55.06:619][408]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-03.55.06:632][408]LogAudioMixer: Display: Using Audio Device 扬声器 (Steam Streaming Speakers)
+[2021.11.06-03.55.06:632][408]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-03.55.06:633][408]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-03.55.06:633][408]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-03.55.06:633][408]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-03.55.06:643][408]LogInit: FAudioDevice initialized.
+[2021.11.06-03.55.06:649][408]LogLoad: Game class is 'MyGameMode_C'
+[2021.11.06-03.55.06:652][408]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.11.06-11.55.06
+[2021.11.06-03.55.06:652][408]LogWorld: Bringing up level for play took: 0.001539
+[2021.11.06-03.55.06:652][408]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.11.06-03.55.06:653][408]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.55.06:653][408]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.55.06:653][408]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.55.06:654][408]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.55.06:654][408]LogStreaming: Warning: Failed to read file '../../../../../UE4_home4/Saved/SaveGames/12.sav' error.
+[2021.11.06-03.55.06:655][408]LogScript: Warning: Script Msg: SetTimer passed a negative or zero time.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2021.11.06-03.55.06:655][408]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] Hello
+[2021.11.06-03.55.06:655][408]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.55.06:655][408]PIE: 登陆的服务器
+[2021.11.06-03.55.06:656][408]PIE: PIE总开始时间：0.083秒。
+[2021.11.06-03.55.08:952][545]LogBlueprintUserMessages: [Begin_C_0] 1
+[2021.11.06-03.55.09:085][553]LogBlueprintUserMessages: [Begin_C_0] 12
+[2021.11.06-03.55.09:354][569]LogBlueprintUserMessages: [Begin_C_0] 123
+[2021.11.06-03.55.09:752][593]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.55.09:752][593]LogStreaming: Warning: Failed to read file '../../../../../UE4_home4/Saved/SaveGames/12.sav' error.
+[2021.11.06-03.55.21:777][314]LogBlueprintUserMessages: [MyGameMode_C_0] slotsuccess
+[2021.11.06-03.55.21:777][314]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.11.06-03.55.21:777][314]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.11.06-03.55.21:777][314]LogNet: Browse: /Game/SecondMap
+[2021.11.06-03.55.21:777][314]LogLoad: LoadMap: /Game/SecondMap
+[2021.11.06-03.55.21:777][314]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.06-03.55.21:778][314]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.55.21:778][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.21:827][314]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016C269E5F80), frame # 9314
+[2021.11.06-03.55.21:827][314]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016C0C109C00), frame # 9314
+[2021.11.06-03.55.21:829][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.11.06-03.55.21:839][314]LogAIModule: Creating AISystem for world SecondMap
+[2021.11.06-03.55.21:839][314]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016C10401E00), frame # 9314
+[2021.11.06-03.55.21:840][314]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016C16CD9F80), frame # 9314
+[2021.11.06-03.55.21:840][314]LogLoad: Game class is 'MyGameMode_C'
+[2021.11.06-03.55.21:841][314]LogWorld: Bringing World /Game/UEDPIE_0_SecondMap.SecondMap up for play (max tick rate 60) at 2021.11.06-11.55.21
+[2021.11.06-03.55.21:841][314]LogWorld: Bringing up level for play took: 0.000378
+[2021.11.06-03.55.21:842][314]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.11.06-03.55.21:842][314]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.55.21:842][314]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.55.21:842][314]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.55.21:843][314]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.55.21:843][314]LogStreaming: Warning: Failed to read file '../../../../../UE4_home4/Saved/SaveGames/12.sav' error.
+[2021.11.06-03.55.21:844][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.55.21:844][314]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.55.21:844][314]LogLoad: Took 0.066816 seconds to LoadMap(/Game/SecondMap)
+[2021.11.06-03.55.23:802][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.55.23:802][430]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SecondMap
+[2021.11.06-03.55.23:803][430]LogWorld: UWorld::CleanupWorld for SecondMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.55.23:803][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.23:812][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.06-03.55.23:815][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.23:848][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.55.23:848][430]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016C16CD9F80), frame # 9430
+[2021.11.06-03.55.23:848][430]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016C10401E00), frame # 9430
+[2021.11.06-03.55.23:850][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.11.06-03.55.23:884][432]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.11.06-03.55.31:279][872]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Begin_Widget/MyHUD.MyHUD
+[2021.11.06-03.55.38:637][286]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyGameMode.MyGameMode
+[2021.11.06-03.55.47:353][789]BlueprintLog: New page: 编译MyGameMode
+[2021.11.06-03.55.47:398][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.11.06-03.55.55:342][260]BlueprintLog: New page: 编译MyGameMode
+[2021.11.06-03.55.55:387][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.11.06-03.55.55:979][293]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.55.55:984][293]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.55.55:987][293]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.55.55:987][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.55:989][293]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.55.55:989][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.56:024][293]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.55.56:024][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.55.57:250][365]LogTemp: Repeating last play command: 选中的视口
+[2021.11.06-03.55.57:259][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.06-03.55.57:259][365]PIE: New page: PIE会话：FirstPersonExampleMap（2021年11月6日 下午7:55:57）
+[2021.11.06-03.55.57:259][365]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.06-03.55.57:271][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011436s)
+[2021.11.06-03.55.57:272][365]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.06-03.55.57:272][365]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016C290FF600), frame # 11365
+[2021.11.06-03.55.57:272][365]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016C106BDA80), frame # 11365
+[2021.11.06-03.55.57:273][365]LogPlayLevel: PIE: World Init took: (0.001857s)
+[2021.11.06-03.55.57:273][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013536s)
+[2021.11.06-03.55.57:294][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.11.06-03.55.57:295][365]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-03.55.57:295][365]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-03.55.57:295][365]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-03.55.57:295][365]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-03.55.57:295][365]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-03.55.57:295][365]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-03.55.57:295][365]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-03.55.57:295][365]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-03.55.57:295][365]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-03.55.57:295][365]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-03.55.57:303][365]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-03.55.57:303][365]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-03.55.57:316][365]LogAudioMixer: Display: Using Audio Device 扬声器 (Steam Streaming Speakers)
+[2021.11.06-03.55.57:316][365]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-03.55.57:316][365]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-03.55.57:316][365]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-03.55.57:316][365]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-03.55.57:327][365]LogInit: FAudioDevice initialized.
+[2021.11.06-03.55.57:336][365]LogLoad: Game class is 'MyGameMode_C'
+[2021.11.06-03.55.57:339][365]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.11.06-11.55.57
+[2021.11.06-03.55.57:339][365]LogWorld: Bringing up level for play took: 0.001364
+[2021.11.06-03.55.57:339][365]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.11.06-03.55.57:340][365]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.55.57:340][365]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.55.57:340][365]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.55.57:341][365]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.55.57:341][365]LogStreaming: Warning: Failed to read file '../../../../../UE4_home4/Saved/SaveGames/12.sav' error.
+[2021.11.06-03.55.57:342][365]LogScript: Warning: Script Msg: SetTimer passed a negative or zero time.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2021.11.06-03.55.57:342][365]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] Hello
+[2021.11.06-03.55.57:342][365]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.55.57:342][365]PIE: 登陆的服务器
+[2021.11.06-03.55.57:343][365]PIE: PIE总开始时间：0.084秒。
+[2021.11.06-03.55.59:792][511]LogBlueprintUserMessages: [Begin_C_0] 1
+[2021.11.06-03.55.59:909][518]LogBlueprintUserMessages: [Begin_C_0] 12
+[2021.11.06-03.56.00:341][544]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.56.00:341][544]LogStreaming: Warning: Failed to read file '../../../../../UE4_home4/Saved/SaveGames/12.sav' error.
+[2021.11.06-03.56.02:392][667]LogBlueprintUserMessages: [MyGameMode_C_0] slotsuccess
+[2021.11.06-03.56.02:392][667]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.11.06-03.56.02:392][667]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.11.06-03.56.02:393][667]LogNet: Browse: /Game/SecondMap
+[2021.11.06-03.56.02:393][667]LogLoad: LoadMap: /Game/SecondMap
+[2021.11.06-03.56.02:393][667]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.06-03.56.02:393][667]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.56.02:393][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.56.02:409][667]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016C106BDA80), frame # 11667
+[2021.11.06-03.56.02:409][667]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016C290FF600), frame # 11667
+[2021.11.06-03.56.02:411][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.11.06-03.56.02:424][667]LogAIModule: Creating AISystem for world SecondMap
+[2021.11.06-03.56.02:424][667]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016C326DD600), frame # 11667
+[2021.11.06-03.56.02:424][667]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016C0A7674C0), frame # 11667
+[2021.11.06-03.56.02:424][667]LogLoad: Game class is 'MyGameMode_C'
+[2021.11.06-03.56.02:425][667]LogWorld: Bringing World /Game/UEDPIE_0_SecondMap.SecondMap up for play (max tick rate 60) at 2021.11.06-11.56.02
+[2021.11.06-03.56.02:426][667]LogWorld: Bringing up level for play took: 0.000377
+[2021.11.06-03.56.02:426][667]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.11.06-03.56.02:426][667]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.56.02:426][667]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.56.02:426][667]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.56.02:427][667]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.56.02:427][667]LogStreaming: Warning: Failed to read file '../../../../../UE4_home4/Saved/SaveGames/12.sav' error.
+[2021.11.06-03.56.02:428][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.56.02:429][667]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.56.02:429][667]LogLoad: Took 0.036104 seconds to LoadMap(/Game/SecondMap)
+[2021.11.06-03.56.03:942][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.56.03:942][756]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SecondMap
+[2021.11.06-03.56.03:943][756]LogWorld: UWorld::CleanupWorld for SecondMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.56.03:943][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.56.03:954][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.06-03.56.03:958][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.56.03:990][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.56.03:990][756]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016C0A7674C0), frame # 11756
+[2021.11.06-03.56.03:990][756]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016C326DD600), frame # 11756
+[2021.11.06-03.56.03:992][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.11.06-03.56.04:007][757]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.11.06-03.56.06:465][901]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyGameMode.MyGameMode
+[2021.11.06-03.56.22:370][827]BlueprintLog: New page: 编译MyGameMode
+[2021.11.06-03.56.22:414][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.11.06-03.56.22:867][851]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.56.22:872][851]LogSlate: Window 'MyGameMode' being destroyed
+[2021.11.06-03.56.22:872][851]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.56.22:872][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.56.23:589][892]LogTemp: Repeating last play command: 选中的视口
+[2021.11.06-03.56.23:599][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.06-03.56.23:599][892]PIE: New page: PIE会话：FirstPersonExampleMap（2021年11月6日 下午7:56:23）
+[2021.11.06-03.56.23:599][892]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.06-03.56.23:609][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010163s)
+[2021.11.06-03.56.23:610][892]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.06-03.56.23:610][892]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016B9E2C7000), frame # 12892
+[2021.11.06-03.56.23:611][892]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016B9E14C900), frame # 12892
+[2021.11.06-03.56.23:611][892]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2021.11.06-03.56.23:611][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012107s)
+[2021.11.06-03.56.23:633][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.11.06-03.56.23:635][892]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.06-03.56.23:635][892]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.06-03.56.23:635][892]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.06-03.56.23:635][892]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.06-03.56.23:635][892]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.06-03.56.23:635][892]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.06-03.56.23:635][892]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.06-03.56.23:635][892]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.06-03.56.23:635][892]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.06-03.56.23:635][892]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.06-03.56.23:643][892]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.06-03.56.23:643][892]LogAudioMixer: Display: 1: FrontRight
+[2021.11.06-03.56.23:657][892]LogAudioMixer: Display: Using Audio Device 扬声器 (Steam Streaming Speakers)
+[2021.11.06-03.56.23:657][892]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.06-03.56.23:657][892]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.06-03.56.23:657][892]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.06-03.56.23:657][892]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.06-03.56.23:668][892]LogInit: FAudioDevice initialized.
+[2021.11.06-03.56.23:672][892]LogLoad: Game class is 'MyGameMode_C'
+[2021.11.06-03.56.23:674][892]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.11.06-11.56.23
+[2021.11.06-03.56.23:674][892]LogWorld: Bringing up level for play took: 0.001443
+[2021.11.06-03.56.23:674][892]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.11.06-03.56.23:677][892]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.56.23:677][892]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.56.23:677][892]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.56.23:677][892]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.56.23:684][892]LogScript: Warning: Script Msg: SetTimer passed a negative or zero time.  The associated timer may fail to fire!  If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2021.11.06-03.56.23:684][892]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] Hello
+[2021.11.06-03.56.23:684][892]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.56.23:684][892]PIE: 登陆的服务器
+[2021.11.06-03.56.23:684][892]PIE: PIE总开始时间：0.086秒。
+[2021.11.06-03.56.25:298][988]LogBlueprintUserMessages: [Begin_C_0] 1
+[2021.11.06-03.56.25:448][997]LogBlueprintUserMessages: [Begin_C_0] 12
+[2021.11.06-03.56.25:897][ 24]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.56.30:136][278]LogBlueprintUserMessages: [qiuti_C_1] 1
+[2021.11.06-03.56.30:136][278]LogBlueprintUserMessages: [qiuti_C_1] 12
+[2021.11.06-03.56.36:018][631]LogBlueprintUserMessages: [MyGameMode_C_0] slotsuccess
+[2021.11.06-03.56.36:018][631]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.11.06-03.56.36:018][631]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.11.06-03.56.36:018][631]LogNet: Browse: /Game/SecondMap
+[2021.11.06-03.56.36:018][631]LogLoad: LoadMap: /Game/SecondMap
+[2021.11.06-03.56.36:018][631]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.11.06-03.56.36:019][631]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.56.36:019][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.56.36:056][631]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016B9E14C900), frame # 13631
+[2021.11.06-03.56.36:056][631]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016B9E2C7000), frame # 13631
+[2021.11.06-03.56.36:058][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.11.06-03.56.36:072][631]LogAIModule: Creating AISystem for world SecondMap
+[2021.11.06-03.56.36:072][631]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016B9E2C4400), frame # 13631
+[2021.11.06-03.56.36:072][631]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016C2885C540), frame # 13631
+[2021.11.06-03.56.36:072][631]LogLoad: Game class is 'MyGameMode_C'
+[2021.11.06-03.56.36:073][631]LogWorld: Bringing World /Game/UEDPIE_0_SecondMap.SecondMap up for play (max tick rate 60) at 2021.11.06-11.56.36
+[2021.11.06-03.56.36:073][631]LogWorld: Bringing up level for play took: 0.000367
+[2021.11.06-03.56.36:074][631]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.11.06-03.56.36:074][631]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.56.36:074][631]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.11.06-03.56.36:074][631]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.56.36:075][631]LogBlueprintUserMessages: [MyGameMode_C_0] Load
+[2021.11.06-03.56.36:077][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.56.36:077][631]PIE: Warning: 控件“Final_List_C”已添加到屏幕。
+[2021.11.06-03.56.36:078][631]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.11.06-03.56.36:078][631]LogLoad: Took 0.058718 seconds to LoadMap(/Game/SecondMap)
+[2021.11.06-03.56.37:742][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.56.37:742][730]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SecondMap
+[2021.11.06-03.56.37:742][730]LogWorld: UWorld::CleanupWorld for SecondMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.06-03.56.37:743][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.56.37:748][730]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.06-03.56.37:751][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.06-03.56.37:780][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.06-03.56.37:781][730]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016C2885C540), frame # 13730
+[2021.11.06-03.56.37:781][730]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016B9E2C4400), frame # 13730
+[2021.11.06-03.56.37:782][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.11.06-03.56.37:854][731]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.11.06-03.56.38:884][787]LogSlate: Window '消息日志' being destroyed
+[2021.11.06-03.56.38:891][787]LogSlate: Window '消息日志' being destroyed
+[2021.11.06-03.56.48:548][136]LogSlate: Window '消息日志' being destroyed
+[2021.11.06-03.56.48:553][136]LogSlate: Window '消息日志' being destroyed
+[2021.11.06-03.57.15:766][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.11.06-03.57.15:794][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="../../../../../UE4_home4/Content/MyGameMode.uasset" SILENT=true
+[2021.11.06-03.57.15:840][649]LogSavePackage: Moving '../../../../../UE4_home4/Saved/MyGameMode289A431E45BCADEF4D051486E4C81FCC.tmp' to '../../../../../UE4_home4/Content/MyGameMode.uasset'
+[2021.11.06-03.57.32:153][649]AssetCheck: New page: 资产保存：MyGameMode
+[2021.11.06-03.57.32:153][649]LogContentValidation: Display: 正在验证Blueprint /Game/MyGameMode.MyGameMode
+[2021.11.06-03.57.32:506][649]UATHelper: 打包 (Android (ASTC)): Running AutomationTool...
+[2021.11.06-03.57.35:417][822]UATHelper: 打包 (Android (ASTC)): Parsing command line: -ScriptsForProject=H:/UE4_home4/UE4_home4.uproject BuildCookRun -nocompileeditor -nop4 -project=H:/UE4_home4/UE4_home4.uproject -cook -stage -archive -archivedirectory=I:/desktop/bag -package -ue4exe=H:\UnrealEngine\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Cmd.exe -pak -prereqs -nodebuginfo -targetplatform=Android -cookflavor=ASTC -build -clientconfig=Development -utf8output -compile
+[2021.11.06-03.57.36:050][860]UATHelper: 打包 (Android (ASTC)): Dependencies are up to date (0.115s). Skipping compile.
+[2021.11.06-03.57.38:418][  2]UATHelper: 打包 (Android (ASTC)): Setting up ProjectParams for H:\UE4_home4\UE4_home4.uproject
+[2021.11.06-03.57.38:701][ 19]UATHelper: 打包 (Android (ASTC)): ********** BUILD COMMAND STARTED **********
+[2021.11.06-03.57.38:718][ 20]UATHelper: 打包 (Android (ASTC)): Running: H:\UnrealEngine\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool.exe UnrealPak Win64 Development  -NoUBTMakefiles  -Manifest=H:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Manifest.xml -NoHotReload -log="H:\UnrealEngine\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBT-UnrealPak-Win64-Development.txt"
+[2021.11.06-03.57.39:095][ 40]UATHelper: 打包 (Android (ASTC)):   Using 'git status' to determine working set for adaptive non-unity build (H:\UnrealEngine\UnrealEngine).
+[2021.11.06-03.57.40:476][123]UATHelper: 打包 (Android (ASTC)):   Writing manifest to H:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Manifest.xml
+[2021.11.06-03.57.40:577][129]UATHelper: 打包 (Android (ASTC)):   Target is up to date
+[2021.11.06-03.57.40:594][130]UATHelper: 打包 (Android (ASTC)):   Total execution time: 1.80 seconds
+[2021.11.06-03.57.40:610][131]UATHelper: 打包 (Android (ASTC)): Took 1.8874301s to run UnrealBuildTool.exe, ExitCode=0
+[2021.11.06-03.57.40:645][133]UATHelper: 打包 (Android (ASTC)): Running: H:\UnrealEngine\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool.exe UE4Game Android Development  -NoUBTMakefiles  -remoteini="H:\UE4_home4" -skipdeploy -Manifest=H:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Manifest.xml -NoHotReload -log="H:\UnrealEngine\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBT-UE4Game-Android-Development.txt"
+[2021.11.06-03.57.41:041][154]UATHelper: 打包 (Android (ASTC)):   Using 'git status' to determine working set for adaptive non-unity build (H:\UnrealEngine\UnrealEngine).
+[2021.11.06-03.57.41:839][202]UATHelper: 打包 (Android (ASTC)):   PLATFORM_ANDROID_NDK_VERSION = 210200
+[2021.11.06-03.57.41:839][202]UATHelper: 打包 (Android (ASTC)):   NDK toolchain: r21b, NDK version: 19, GccVersion: 4.9, ClangVersion: 9.0.8
+[2021.11.06-03.57.42:681][252]UATHelper: 打包 (Android (ASTC)):   Compiling Native 32-bit code with NDK API 'android-19'
+[2021.11.06-03.57.44:713][374]UATHelper: 打包 (Android (ASTC)):   Writing manifest to H:\UnrealEngine\UnrealEngine\Engine\Intermediate\Build\Manifest.xml
+[2021.11.06-03.57.45:019][392]UATHelper: 打包 (Android (ASTC)):   Target is up to date
+[2021.11.06-03.57.45:019][392]UATHelper: 打包 (Android (ASTC)):   Deploying UE4Game Android Development...
+[2021.11.06-03.57.45:034][393]UATHelper: 打包 (Android (ASTC)):   AndroidPlugin: Plugins\Online\Android\OnlineSubsystemGooglePlay\Source\OnlineSubsystemGooglePlay_UPL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   AndroidPlugin: Plugins\Runtime\AndroidPermission\Source\AndroidPermission\AndroidPermission_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   AndroidPlugin: Plugins\Runtime\GoogleCloudMessaging\Source\GoogleCloudMessaging\GoogleCloudMessaging_UPL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   AndroidPlugin: Plugins\Runtime\GooglePAD\Source\GooglePAD\GooglePAD_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   AndroidPlugin: Plugins\Runtime\Oculus\OculusVR\Source\OculusHMD\OculusMobile_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   AndroidPlugin: Source\Runtime\Online\Voice\AndroidVoiceImpl_UPL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   AndroidPlugin: Source\Runtime\Advertising\Android\AndroidAdvertising\AndroidAdvertising_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   AndroidPlugin: Source\ThirdParty\GoogleGameSDK\GoogleGameSDK_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   UPL: ..\Plugins/Online/Android/OnlineSubsystemGooglePlay/Source/OnlineSubsystemGooglePlay_UPL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   UPL: ..\Plugins/Runtime/AndroidPermission/Source/AndroidPermission/AndroidPermission_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   UPL: ..\Plugins/Runtime/GoogleCloudMessaging/Source/GoogleCloudMessaging/GoogleCloudMessaging_UPL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   UPL: ..\Plugins/Runtime/GooglePAD/Source/GooglePAD/GooglePAD_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   UPL: ..\Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/OculusMobile_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   UPL: ..\Source/Runtime/Online/Voice/AndroidVoiceImpl_UPL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   UPL: ..\Source/Runtime/Advertising/Android/AndroidAdvertising/AndroidAdvertising_APL.xml
+[2021.11.06-03.57.45:035][393]UATHelper: 打包 (Android (ASTC)):   UPL: ..\Source/ThirdParty/GoogleGameSDK/GoogleGameSDK_APL.xml
+[2021.11.06-03.57.45:053][394]UATHelper: 打包 (Android (ASTC)):   Using package name: 'com.YourCompany.UE4Game'
+[2021.11.06-03.57.45:053][394]UATHelper: 打包 (Android (ASTC)):   GotStoreVersion found v1. (bUseChangeListAsStoreVersion=False IsBuildMachine=False EngineChangeList=0)
+[2021.11.06-03.57.45:053][394]UATHelper: 打包 (Android (ASTC)):   Writing packageInfo pkgName:com.YourCompany.UE4Game storeVersion:1 versionDisplayName:1.0 to H:\UnrealEngine\UnrealEngine\Engine\Binaries\Android\packageInfo.txt
+[2021.11.06-03.57.45:085][396]UATHelper: 打包 (Android (ASTC)):   
+[2021.11.06-03.57.45:085][396]UATHelper: 打包 (Android (ASTC)):   ====2021/11/6 11:57:45====PREPARING TO MAKE APK=================================================================
+[2021.11.06-03.57.45:085][396]UATHelper: 打包 (Android (ASTC)):   APK generation not needed for project UE4Game with H:\UnrealEngine\UnrealEngine\Engine\Binaries\Android\UE4Game.so
+[2021.11.06-03.57.45:085][396]UATHelper: 打包 (Android (ASTC)):   
+[2021.11.06-03.57.45:085][396]UATHelper: 打包 (Android (ASTC)):   ====2021/11/6 11:57:45====COMPLETED MAKE APK=======================================================================
+[2021.11.06-03.57.45:085][396]UATHelper: 打包 (Android (ASTC)):   Total execution time: 4.40 seconds
+[2021.11.06-03.57.45:153][400]UATHelper: 打包 (Android (ASTC)): Took 4.5180079s to run UnrealBuildTool.exe, ExitCode=0
+[2021.11.06-03.57.45:153][400]UATHelper: 打包 (Android (ASTC)): ********** BUILD COMMAND COMPLETED **********
+[2021.11.06-03.57.45:168][401]UATHelper: 打包 (Android (ASTC)): ********** COOK COMMAND STARTED **********
+[2021.11.06-03.57.45:168][401]UATHelper: 打包 (Android (ASTC)): Running UE4Editor Cook for project H:\UE4_home4\UE4_home4.uproject
+[2021.11.06-03.57.45:168][401]UATHelper: 打包 (Android (ASTC)): Commandlet log file is H:\UnrealEngine\UnrealEngine\Engine\Programs\AutomationTool\Saved\Cook-2021.11.06-11.57.45.txt
+[2021.11.06-03.57.45:168][401]UATHelper: 打包 (Android (ASTC)): Running: H:\UnrealEngine\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Cmd.exe H:\UE4_home4\UE4_home4.uproject -run=Cook  -TargetPlatform=Android_ASTC -fileopenlog -unversioned -abslog=H:\UnrealEngine\UnrealEngine\Engine\Programs\AutomationTool\Saved\Cook-2021.11.06-11.57.45.txt -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2021.11.06-03.57.45:502][421]UATHelper: 打包 (Android (ASTC)):   LogInit: Display: Running engine for game: UE4_home4
+[2021.11.06-03.57.46:952][508]UATHelper: 打包 (Android (ASTC)):   LogHAL: Display: Platform has ~ 16 GB [17051144192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.11.06-03.57.47:186][522]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.11.06-03.57.47:204][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.11.06-03.57.47:204][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.11.06-03.57.47:204][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.11.06-03.57.47:204][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.11.06-03.57.47:204][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.11.06-03.57.47:205][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.11.06-03.57.47:205][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.11.06-03.57.47:205][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.11.06-03.57.47:205][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.11.06-03.57.47:205][523]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.11.06-03.57.47:238][525]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.11.06-03.57.47:238][525]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.11.06-03.57.47:269][527]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.11.06-03.57.47:269][527]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.11.06-03.57.47:290][528]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.11.06-03.57.47:290][528]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.11.06-03.57.47:290][528]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.11.06-03.57.47:290][528]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.11.06-03.57.47:303][529]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.11.06-03.57.47:319][530]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.11.06-03.57.47:335][531]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'XXX'
+[2021.11.06-03.57.47:335][531]UATHelper: 打包 (Android (ASTC)):   LogTargetPlatformManager: Display: Building Assets For Android_ASTC
+[2021.11.06-03.57.47:335][531]UATHelper: 打包 (Android (ASTC)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.11.06-03.57.47:903][565]UATHelper: 打包 (Android (ASTC)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.11.06-03.57.48:485][600]UATHelper: 打包 (Android (ASTC)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.11.06-03.57.48:551][604]UATHelper: 打包 (Android (ASTC)):   LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../UE4_home4/DerivedDataCache/Boot.ddc
+[2021.11.06-03.57.49:752][676]UATHelper: 打包 (Android (ASTC)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.06-03.57.49:752][676]UATHelper: 打包 (Android (ASTC)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.06-03.57.50:154][700]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.11.06-03.57.50:154][700]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Mobile HDR setting 1
+[2021.11.06-03.57.50:154][700]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Creating asset registry
+[2021.11.06-03.57.50:420][716]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Discovering localized assets for cultures: en
+[2021.11.06-03.57.50:454][718]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Inisetting is different for Windows Game /Script/UnrealEd.ProjectPackagingSettings StagingDirectory 0, value (Path="I:/desktop/bag") != (Path="H/UE4_home4/Bag/新建文件夹/Final_bag") invalidating cook
+[2021.11.06-03.57.50:454][718]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: To avoid this add blacklist setting to DefaultEditor.ini [CookSettings] Windows.Game:/Script/UnrealEd.ProjectPackagingSettings
+[2021.11.06-03.57.50:454][718]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Clearing all cooked content for platform Android_ASTC
+[2021.11.06-03.57.50:490][720]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Sandbox cleanup took 0.071 seconds for platforms Android_ASTC
+[2021.11.06-03.57.52:070][815]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 0 Packages Remain 507 Total 507
+[2021.11.06-03.57.52:437][837]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 50 Packages Remain 506 Total 556
+[2021.11.06-03.57.52:569][845]UATHelper: 打包 (Android (ASTC)):   LogBlueprint: Warning: [Compiler MyGameMode] RecreatePinForVariable: 'PlayerName' pin not found
+[2021.11.06-03.57.52:569][845]UATHelper: 打包 (Android (ASTC)):   LogBlueprint: Warning: [Compiler MyGameMode] RecreatePinForVariable: 'Sc' pin not found
+[2021.11.06-03.57.52:569][845]PackagingResults: Warning: [Compiler MyGameMode] RecreatePinForVariable: 'PlayerName' pin not found
+[2021.11.06-03.57.52:569][845]PackagingResults: Warning: [Compiler MyGameMode] RecreatePinForVariable: 'Sc' pin not found
+[2021.11.06-03.57.52:888][864]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 100 Packages Remain 507 Total 607
+[2021.11.06-03.57.53:022][870]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 150 Packages Remain 506 Total 656
+[2021.11.06-03.57.53:391][892]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 200 Packages Remain 505 Total 705
+[2021.11.06-03.57.53:427][894]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 210 Packages Remain 358 Total 568
+[2021.11.06-03.57.53:459][896]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 223 Packages Remain 357 Total 580
+[2021.11.06-03.57.53:485][898]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 228 Packages Remain 356 Total 584
+[2021.11.06-03.57.53:686][910]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 234 Packages Remain 362 Total 596
+[2021.11.06-03.57.54:616][966]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 284 Packages Remain 364 Total 648
+[2021.11.06-03.57.55:217][  2]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 334 Packages Remain 365 Total 699
+[2021.11.06-03.57.55:708][ 31]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 384 Packages Remain 365 Total 749
+[2021.11.06-03.57.56:041][ 51]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 434 Packages Remain 364 Total 798
+[2021.11.06-03.57.56:212][ 61]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 470 Packages Remain 339 Total 809
+[2021.11.06-03.57.56:213][ 61]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 470 Packages Remain 331 Total 801
+[2021.11.06-03.57.56:232][ 62]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 470 Packages Remain 308 Total 778
+[2021.11.06-03.57.56:232][ 62]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 470 Packages Remain 307 Total 777
+[2021.11.06-03.57.56:232][ 62]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 470 Packages Remain 284 Total 754
+[2021.11.06-03.57.56:266][ 64]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 477 Packages Remain 283 Total 760
+[2021.11.06-03.57.56:266][ 64]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 477 Packages Remain 270 Total 747
+[2021.11.06-03.57.56:282][ 65]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 481 Packages Remain 269 Total 750
+[2021.11.06-03.57.56:300][ 66]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 482 Packages Remain 268 Total 750
+[2021.11.06-03.57.56:300][ 66]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 483 Packages Remain 267 Total 750
+[2021.11.06-03.57.56:300][ 66]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 484 Packages Remain 266 Total 750
+[2021.11.06-03.57.56:326][ 67]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 485 Packages Remain 265 Total 750
+[2021.11.06-03.57.56:326][ 67]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 486 Packages Remain 264 Total 750
+[2021.11.06-03.57.56:326][ 67]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 487 Packages Remain 263 Total 750
+[2021.11.06-03.57.56:364][ 70]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 488 Packages Remain 262 Total 750
+[2021.11.06-03.57.56:397][ 72]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 489 Packages Remain 259 Total 748
+[2021.11.06-03.57.56:433][ 74]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 490 Packages Remain 258 Total 748
+[2021.11.06-03.57.56:433][ 74]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 491 Packages Remain 257 Total 748
+[2021.11.06-03.57.56:450][ 75]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 492 Packages Remain 256 Total 748
+[2021.11.06-03.57.56:450][ 75]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 493 Packages Remain 255 Total 748
+[2021.11.06-03.57.56:498][ 78]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 494 Packages Remain 254 Total 748
+[2021.11.06-03.57.56:515][ 79]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 495 Packages Remain 252 Total 747
+[2021.11.06-03.57.56:515][ 79]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 496 Packages Remain 248 Total 744
+[2021.11.06-03.57.56:532][ 80]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 497 Packages Remain 247 Total 744
+[2021.11.06-03.57.56:549][ 81]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 498 Packages Remain 246 Total 744
+[2021.11.06-03.57.56:565][ 82]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 499 Packages Remain 245 Total 744
+[2021.11.06-03.57.56:582][ 83]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 500 Packages Remain 242 Total 742
+[2021.11.06-03.57.56:598][ 84]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 501 Packages Remain 240 Total 741
+[2021.11.06-03.57.56:614][ 85]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 502 Packages Remain 236 Total 738
+[2021.11.06-03.57.56:634][ 86]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 503 Packages Remain 235 Total 738
+[2021.11.06-03.57.56:634][ 86]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 504 Packages Remain 234 Total 738
+[2021.11.06-03.57.56:634][ 86]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 505 Packages Remain 231 Total 736
+[2021.11.06-03.57.56:652][ 87]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 506 Packages Remain 226 Total 732
+[2021.11.06-03.57.56:652][ 87]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 507 Packages Remain 225 Total 732
+[2021.11.06-03.57.56:666][ 88]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 508 Packages Remain 222 Total 730
+[2021.11.06-03.57.56:666][ 88]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 509 Packages Remain 218 Total 727
+[2021.11.06-03.57.56:683][ 89]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 510 Packages Remain 215 Total 725
+[2021.11.06-03.57.56:683][ 89]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 511 Packages Remain 213 Total 724
+[2021.11.06-03.57.56:683][ 89]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 512 Packages Remain 211 Total 723
+[2021.11.06-03.57.56:699][ 90]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 513 Packages Remain 206 Total 719
+[2021.11.06-03.57.56:699][ 90]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 513 Packages Remain 175 Total 688
+[2021.11.06-03.57.56:733][ 92]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 516 Packages Remain 144 Total 660
+[2021.11.06-03.57.56:751][ 93]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 520 Packages Remain 141 Total 661
+[2021.11.06-03.57.56:785][ 95]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 522 Packages Remain 132 Total 654
+[2021.11.06-03.57.56:785][ 95]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 524 Packages Remain 130 Total 654
+[2021.11.06-03.57.56:785][ 95]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 526 Packages Remain 118 Total 644
+[2021.11.06-03.57.56:785][ 95]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 527 Packages Remain 116 Total 643
+[2021.11.06-03.57.56:785][ 95]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 528 Packages Remain 114 Total 642
+[2021.11.06-03.57.56:800][ 96]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 529 Packages Remain 113 Total 642
+[2021.11.06-03.57.56:800][ 96]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 530 Packages Remain 112 Total 642
+[2021.11.06-03.57.56:817][ 97]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 531 Packages Remain 109 Total 640
+[2021.11.06-03.57.56:817][ 97]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 532 Packages Remain 107 Total 639
+[2021.11.06-03.57.56:817][ 97]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 533 Packages Remain 105 Total 638
+[2021.11.06-03.57.56:817][ 97]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 534 Packages Remain 103 Total 637
+[2021.11.06-03.57.56:831][ 98]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 535 Packages Remain 100 Total 635
+[2021.11.06-03.57.56:848][ 99]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 537 Packages Remain 99 Total 636
+[2021.11.06-03.57.56:870][100]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 538 Packages Remain 97 Total 635
+[2021.11.06-03.57.56:870][100]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 539 Packages Remain 88 Total 627
+[2021.11.06-03.57.56:870][100]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 540 Packages Remain 84 Total 624
+[2021.11.06-03.57.56:870][100]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 540 Packages Remain 80 Total 620
+[2021.11.06-03.57.56:870][100]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 542 Packages Remain 70 Total 612
+[2021.11.06-03.57.56:870][100]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 543 Packages Remain 46 Total 589
+[2021.11.06-03.57.56:870][100]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cooked packages 544 Packages Remain 0 Total 544
+[2021.11.06-03.57.56:870][100]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Finishing up...
+[2021.11.06-03.57.56:886][101]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Saving BulkData manifest(s)...
+[2021.11.06-03.57.56:886][101]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Done saving BulkData manifest(s)
+[2021.11.06-03.57.56:886][101]UATHelper: 打包 (Android (ASTC)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2021.11.06-03.57.56:886][101]UATHelper: 打包 (Android (ASTC)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2021.11.06-03.57.56:886][101]UATHelper: 打包 (Android (ASTC)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2021.11.06-03.57.56:949][105]UATHelper: 打包 (Android (ASTC)):   LogShaderLibrary: Display:
+[2021.11.06-03.57.56:949][105]UATHelper: 打包 (Android (ASTC)):   LogShaderLibrary: Display: Shader Code Stats: GLSL_ES3_1_ANDROID
+[2021.11.06-03.57.56:949][105]UATHelper: 打包 (Android (ASTC)):   LogShaderLibrary: Display: =================
+[2021.11.06-03.57.56:949][105]UATHelper: 打包 (Android (ASTC)):   LogShaderLibrary: Display: Unique Shaders: 4262, Total Shaders: 22720
+[2021.11.06-03.57.56:949][105]UATHelper: 打包 (Android (ASTC)):   LogShaderLibrary: Display: Unique Shaders Size: 15.05mb, Total Shader Size: 15.05mb
+[2021.11.06-03.57.56:949][105]UATHelper: 打包 (Android (ASTC)):   LogShaderLibrary: Display: =================
+[2021.11.06-03.57.57:001][108]UATHelper: 打包 (Android (ASTC)):   LogAssetRegistryGenerator: Display: Saving asset registry.
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 540, size is 283.63kb
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Cook by the book total time in tick 4.796421s total time 6.861273
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Peak Used virtual 681MB Peak Used physical 739MB
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Hierarchy Timer Information:
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:   Root: 0.000s (0)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:     StartCookByTheBookTime: 1.918s (1)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       CleanSandbox: 0.071s (1)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:         ProcessingAccessedStrings: 0.004s (1)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       CollectFilesToCook: 0.327s (1)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:         GeneratePackageNames: 0.001s (1)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       GenerateLongPackageName: 0.001s (1)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:     TickCookOnTheSide: 4.778s (95)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       LoadPackage: 1.177s (93)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.091s (95)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       PostLoadPackageFixup: 0.000s (95)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       SavingPackages: 3.506s (68)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.012s (539)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.996s (526)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:         SaveCookedPackage: 2.458s (544)
+[2021.11.06-03.57.57:015][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:           LoadPackage: 0.001s (544)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:           GEditorSavePackage: 2.442s (544)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:             ConvertingBlueprints: 0.008s (544)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:             VerifyCanCookPackage: 0.002s (540)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.010s (544)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:         EnqueueUnsavedPackages: 0.000s (10)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:     FinalizePackageStore: 0.001s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:     GeneratingBlueprintAssets: 0.004s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:     SavingCurrentIniSettings: 0.029s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       ProcessingAccessedStrings: 0.004s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:     SavingAssetRegistry: 0.033s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       BuildChunkManifest: 0.012s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       SaveManifests: 0.003s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       SaveRealAssetRegistry: 0.017s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display:       WriteCookerOpenOrder: 0.001s (1)
+[2021.11.06-03.57.57:016][109]UATHelper: 打包 (Android (ASTC)):   LogCook: Display: Done!
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogSavePackage: Display: Took 0.005364s to verify the EDL loading graph.
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Misc Cook Stats
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: ===============
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: ShaderCompiler
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     BlockingTimeSec=0.000000
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.000142
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Package.Load
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     NumPackagesLoaded=246
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     LoadPackageTimeSec=1.564304
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Package.Save
+[2021.11.06-03.57.57:034][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     NumPackagesSaved=544
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     SavePackageTimeSec=2.385927
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.548383
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.350061
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000292
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.002559
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.003610
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000734
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.481797
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.386524
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.096306
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     MBWritten=470.167999
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Package.DiffTotal
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: UnversionedProperties
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     SavedStructs=0
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     SavedMB=0
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2021.11.06-03.57.57:035][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Cook Profile
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: ============
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0.CookWallTimeSec=11.618857
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=4.739608
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=6.876529
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=1.918329
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000176
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=4.940031
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=1.179421
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=2.458556
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2021.11.06-03.57.57:036][110]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=1.097070
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.024251
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000350
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000016
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000031
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000005
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: DDC Summary Stats
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: =================
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: TotalGetHits    =      1647
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: TotalGets       =      1647
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: TotalGetHitPct  =  1.000000
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.961141
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.038859
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: GetMissPct      =  0.000000
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: TotalPutHits    =         0
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: TotalPuts       =         0
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: TotalPutHitPct  =  0.000000
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display:
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: DDC Resource Stats
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: =======================================================================================================
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Texture (Streaming)                             1.56                   0.00             0        380.89
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: MaterialShader                                  0.79                   0.79             0         20.42
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.17                   0.17             0          8.52
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: StaticMesh                                      0.11                   0.11             0          8.27
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: NavCollision                                    0.06                   0.06             0          0.15
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: Texture (Inline)                                0.03                   0.03             0         70.68
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: SkeletalMesh                                    0.00                   0.00             0          2.51
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: GlobalShader                                    0.00                   0.00             0          0.98
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          2.67
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogInit: Display:
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogInit: Display: Warning/Error Summary (Unique only)
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogInit: Display: -----------------------------------
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogInit: Display: LogBlueprint: Warning: [Compiler MyGameMode] RecreatePinForVariable: 'PlayerName' pin not found
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogInit: Display: LogBlueprint: Warning: [Compiler MyGameMode] RecreatePinForVariable: 'Sc' pin not found
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogInit: Display:
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogInit: Display: Success - 0 error(s), 2 warning(s)
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   LogInit: Display:
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   
+[2021.11.06-03.57.57:049][111]UATHelper: 打包 (Android (ASTC)):   Execution of commandlet took:  6.90 seconds
+[2021.11.06-03.57.57:347][129]UATHelper: 打包 (Android (ASTC)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Took 12.4471503s to run UE4Editor-Cmd.exe, ExitCode=0
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): ********** COOK COMMAND COMPLETED **********
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): ********** STAGE COMMAND STARTED **********
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Creating UE4CommandLine.txt
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Creating Staging Manifest...
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\BaseEditor.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\BaseEditorKeyBindings.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\BaseEditorSettings.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\BaseLightmass.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\BasePakFileRules.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\Category.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\Editor.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\EditorTutorials.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\Engine.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\Keywords.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\PortableObjectExport.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\PortableObjectImport.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\PropertyNames.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\RepairData.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\ToolTips.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UnrealEngine\UnrealEngine\Engine\Config\Localization\WordCount.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UE4_home4\Config\DefaultEditor.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Excluding config file H:\UE4_home4\Config\DefaultEditorPerProjectUserSettings.ini
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Cleaning Stage Directory: H:\UE4_home4\Saved\StagedBuilds\Android_ASTC
+[2021.11.06-03.57.57:820][138]UATHelper: 打包 (Android (ASTC)): Creating pak using staging manifest.
+[2021.11.06-03.57.58:153][139]UATHelper: 打包 (Android (ASTC)): Executing 1 UnrealPak command...
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)): Waiting for child processes to complete (1/1)
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)): Output from: H:\UE4_home4\UE4_home4.uproject H:\UE4_home4\Saved\StagedBuilds\Android_ASTC\UE4_home4\Content\Paks\UE4_home4-Android_ASTC.pak -create=H:\UnrealEngine\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\PakList_UE4_home4-Android_ASTC.txt -cryptokeys=H:\UE4_home4\Saved\Cooked\Android_ASTC\UE4_home4\Metadata\Crypto.json -order=H:\UE4_home4\Build\Android_ASTC\FileOpenOrder\CookerOpenOrder.log -platform=Android  -multiprocess -abslog=H:\UnrealEngine\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UnrealPak-UE4_home4-Android_ASTC-2021.11.06-11.57.57.txt
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Loading response file H:\UnrealEngine\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\PakList_UE4_home4-Android_ASTC.txt
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Added 2295 entries to add to pak file.
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Loading pak order file H:\UE4_home4\Build\Android_ASTC\FileOpenOrder\CookerOpenOrder.log...
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Finished loading pak order file H:\UE4_home4\Build\Android_ASTC\FileOpenOrder\CookerOpenOrder.log.
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Collecting files to add to pak file...
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Collected 2295 files in 0.01s.
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Creating pak H:\UE4_home4\Saved\StagedBuilds\Android_ASTC\UE4_home4\Content\Paks\UE4_home4-Android_ASTC.pak.
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: DISABLING pak file index freezing (all must be true: HasPlatformInfo? true - TargetIs64Bit? false - NoRuntimeUnloading? true - Unencrypted? true, 'Android' != 'Windows')
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Added 2295 files, 489169413 bytes total, time 1.82s.
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Encryption - DISABLED
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)):   LogPakFile: Display: Unreal pak executed in 1.933741 seconds
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)): UnrealPak terminated with exit code 0
+[2021.11.06-03.58.01:153][148]UATHelper: 打包 (Android (ASTC)): Copying NonUFSFiles to staging directory: H:\UE4_home4\Saved\StagedBuilds\Android_ASTC
+[2021.11.06-03.58.01:486][149]UATHelper: 打包 (Android (ASTC)): ********** STAGE COMMAND COMPLETED **********
+[2021.11.06-03.58.01:486][149]UATHelper: 打包 (Android (ASTC)): ********** PACKAGE COMMAND STARTED **********
+[2021.11.06-03.58.01:487][149]UATHelper: 打包 (Android (ASTC)): BaseApkName = H:\UE4_home4\Binaries\Android\UE4_home4.apk
+[2021.11.06-03.58.01:487][149]UATHelper: 打包 (Android (ASTC)): Creating H:\UE4_home4\Saved\StagedBuilds\Android_ASTC.obb from H:\UE4_home4\Saved\StagedBuilds\Android_ASTC
+[2021.11.06-03.58.01:820][150]UATHelper: 打包 (Android (ASTC)): [1/1] Adding UE4_home4/Content/Paks/UE4_home4-Android_ASTC.pak to OBB
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): AndroidPlugin: Plugins\Online\Android\OnlineSubsystemGooglePlay\Source\OnlineSubsystemGooglePlay_UPL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): AndroidPlugin: Plugins\Runtime\AndroidPermission\Source\AndroidPermission\AndroidPermission_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): AndroidPlugin: Plugins\Runtime\GoogleCloudMessaging\Source\GoogleCloudMessaging\GoogleCloudMessaging_UPL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): AndroidPlugin: Plugins\Runtime\GooglePAD\Source\GooglePAD\GooglePAD_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): AndroidPlugin: Plugins\Runtime\Oculus\OculusVR\Source\OculusHMD\OculusMobile_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): AndroidPlugin: Source\Runtime\Online\Voice\AndroidVoiceImpl_UPL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): AndroidPlugin: Source\Runtime\Advertising\Android\AndroidAdvertising\AndroidAdvertising_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): AndroidPlugin: Source\ThirdParty\GoogleGameSDK\GoogleGameSDK_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL: Engine\Plugins/Online/Android/OnlineSubsystemGooglePlay/Source/OnlineSubsystemGooglePlay_UPL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL: Engine\Plugins/Runtime/AndroidPermission/Source/AndroidPermission/AndroidPermission_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL: Engine\Plugins/Runtime/GoogleCloudMessaging/Source/GoogleCloudMessaging/GoogleCloudMessaging_UPL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL: Engine\Plugins/Runtime/GooglePAD/Source/GooglePAD/GooglePAD_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL: Engine\Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/OculusMobile_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL: Engine\Source/Runtime/Online/Voice/AndroidVoiceImpl_UPL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL: Engine\Source/Runtime/Advertising/Android/AndroidAdvertising/AndroidAdvertising_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL: Engine\Source/ThirdParty/GoogleGameSDK/GoogleGameSDK_APL.xml
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): Target SDK Version 28
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): Using package name: 'com.YourCompany.UE4_home4'
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): GotStoreVersion found v1. (bUseChangeListAsStoreVersion=False IsBuildMachine=False EngineChangeList=0)
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): Writing packageInfo pkgName:com.YourCompany.UE4_home4 storeVersion:1 versionDisplayName:1.0 to H:\UE4_home4\Binaries\Android\packageInfo.txt
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ====2021/11/6 11:58:04====PREPARING TO MAKE APK=================================================================
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): bBuildForES31: true
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): bSupportsVulkan: false
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): Building Java with SDK API level 'android-31'
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): Building with Build Tools version '31.0.0'
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ==== Writing to shim file H:\UE4_home4\Build\Android\src\com\epicgames\ue4\DownloadShim.java ====
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ==== Shim data file up to date so not writing. ====
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ==== Writing to template target file H:\UE4_home4\Build\Android\src\com\YourCompany\UE4_home4\AlarmReceiver.java ====
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ==== Template target file up to date so not writing. ====
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ==== Writing to template target file H:\UE4_home4\Build\Android\src\com\YourCompany\UE4_home4\DownloaderActivity.java ====
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ==== Template target file up to date so not writing. ====
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ==== Writing to template target file H:\UE4_home4\Build\Android\src\com\YourCompany\UE4_home4\OBBDownloaderService.java ====
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): ==== Template target file up to date so not writing. ====
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): Cleaning up files based on template dir H:\UE4_home4\Build\Android\src\com\YourCompany\UE4_home4
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): H:\UE4_home4\Binaries\Android\UE4_home4-armv7.apk is out of date due to newer input file H:\UE4_home4/Saved/StagedBuilds/Android_ASTC/UE4_home4/Content/Paks\UE4_home4-Android_ASTC.pak
+[2021.11.06-03.58.04:372][227]UATHelper: 打包 (Android (ASTC)): UPL Init: armeabi-v7a
+[2021.11.06-03.58.04:373][227]UATHelper: 打包 (Android (ASTC)): Subsystem Google Play SDK Android init
+[2021.11.06-03.58.04:373][227]UATHelper: 打包 (Android (ASTC)): Android Permission Plugin Init
+[2021.11.06-03.58.04:373][227]UATHelper: 打包 (Android (ASTC)): Google Cloud Messaging init
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): GCMClientSenderID set: false
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): GooglePAD Plugin Init
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): GooglePAD enabled: false
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): Oculus mobile init
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): Oculus Signature Files (osig) will be removed from APK
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): Android Voice init
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): AndroidAdvertising init
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): Including AdMob support. Disable in Android project settings if you do not need to use it.
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): GoogleGameSDK Android init
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): On build machine.
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): ====2021/11/6 11:58:04====PREPARING NATIVE CODE=====-armv7============================================================
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): bPackageDataInsideApk = True
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): Obb location H:\UE4_home4/Saved/StagedBuilds/Android_ASTC.obb
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): Obb destination location H:\UE4_home4\Intermediate\Android\armv7/assets
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): Obb file exists...
+[2021.11.06-03.58.04:700][228]UATHelper: 打包 (Android (ASTC)): Copying H:\UE4_home4/Saved/StagedBuilds/Android_ASTC.obb to H:\UE4_home4\Intermediate\Android\armv7/assets\main.obb.png
+[2021.11.06-03.58.04:737][229]UATHelper: 打包 (Android (ASTC)): UE4CommandLine.txt exists...
+[2021.11.06-03.58.04:737][229]UATHelper: 打包 (Android (ASTC)): Copying H:\UE4_home4\Saved\StagedBuilds\Android_ASTC\UE4CommandLine.txt to H:\UE4_home4\Intermediate\Android\armv7\assets\UE4CommandLine.txt
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): AddRepositories: Directory C:\Andiord_SDK\extras not found; ignored
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): Added repository: H:\UnrealEngine\UnrealEngine\Engine\Source\ThirdParty\Android\extras\google\m2repository
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): Added repository: H:\UnrealEngine\UnrealEngine\Engine\Source\ThirdParty\Android\extras\android\m2repository
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): AARImports: com.google.android.gms, play-services-auth, 11.8.0
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): AARImports: com.google.android.gms, play-services-games, 11.8.0
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): AARImports: com.google.android.gms, play-services-nearby, 11.8.0
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): AARImports: com.google.android.gms, play-services-plus, 11.8.0
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): Copying Google Play java files
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): Directory Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Source/Java copied to H:/UE4_home4/Intermediate/Android/armv7/src
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): Copying permission_library directory to staging before build
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): Directory H:/UnrealEngine/UnrealEngine/Engine/Source/ThirdParty/AndroidPermission/permission_library copied to H:/UE4_home4/Intermediate/Android/armv7/JavaLibs/permission_library
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): ==== Writing to OBB data file H:\UE4_home4\Intermediate\Android\armv7\src\com\YourCompany\UE4_home4\OBBData.java ====
+[2021.11.06-03.58.05:226][240]UATHelper: 打包 (Android (ASTC)): ==== OBB data file up to date so not writing. ====
+[2021.11.06-03.58.05:243][241]UATHelper: 打包 (Android (ASTC)): Copying libplaycore.so and proguard files
+[2021.11.06-03.58.05:243][241]UATHelper: 打包 (Android (ASTC)): File H:/UnrealEngine/UnrealEngine/Engine/Plugins/Runtime/GooglePAD/Source/GooglePAD/../ThirdParty/play-core-native-sdk/libs/armeabi-v7a/libplaycore.so copied to H:/UE4_home4/Intermediate/Android/armv7/libs/armeabi-v7a/libplaycore.so
+[2021.11.06-03.58.05:243][241]UATHelper: 打包 (Android (ASTC)): Copying libvrapi.so
+[2021.11.06-03.58.05:243][241]UATHelper: 打包 (Android (ASTC)): File H:/UnrealEngine/UnrealEngine/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/armeabi-v7a/libvrapi.so copied to H:/UE4_home4/Intermediate/Android/armv7/libs/armeabi-v7a/libvrapi.so
+[2021.11.06-03.58.05:243][241]UATHelper: 打包 (Android (ASTC)): Copying libOVRPlugin.so
+[2021.11.06-03.58.05:243][241]UATHelper: 打包 (Android (ASTC)): File H:/UnrealEngine/UnrealEngine/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Lib/armeabi-v7a/libOVRPlugin.so copied to H:/UE4_home4/Intermediate/Android/armv7/libs/armeabi-v7a/libOVRPlugin.so
+[2021.11.06-03.58.05:243][241]UATHelper: 打包 (Android (ASTC)): Copying libOVRMrcLib.so
+[2021.11.06-03.58.05:259][242]UATHelper: 打包 (Android (ASTC)): File H:/UnrealEngine/UnrealEngine/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Lib/armeabi-v7a/libOVRMrcLib.so copied to H:/UE4_home4/Intermediate/Android/armv7/libs/armeabi-v7a/libOVRMrcLib.so
+[2021.11.06-03.58.05:259][242]UATHelper: 打包 (Android (ASTC)): File H:/UnrealEngine/UnrealEngine/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/VrApi.jar copied to H:/UE4_home4/Intermediate/Android/armv7/libs/VrApi.jar
+[2021.11.06-03.58.05:259][242]UATHelper: 打包 (Android (ASTC)): File H:/UnrealEngine/UnrealEngine/Engine/Source/ThirdParty/Oculus/OVRPlugin/OVRPlugin/ExtLibs/SystemUtils.jar copied to H:/UE4_home4/Intermediate/Android/armv7/libs/SystemUtils.jar
+[2021.11.06-03.58.05:259][242]UATHelper: 打包 (Android (ASTC)): ====2021/11/6 11:58:05====PERFORMING FINAL APK PACKAGE OPERATION=====-armv7===========================================
+[2021.11.06-03.58.06:209][299]UATHelper: 打包 (Android (ASTC)): Copied file H:\UE4_home4\Intermediate\Android\armv7\gradle\app\src\main\assets\main.obb.png.
+[2021.11.06-03.58.06:209][299]UATHelper: 打包 (Android (ASTC)): Copied file H:\UE4_home4\Intermediate\Android\armv7\gradle\app\src\main\assets\UE4CommandLine.txt.
+[2021.11.06-03.58.06:310][305]UATHelper: 打包 (Android (ASTC)): Creating rungradle.bat to work around commandline length limit (using unused drive letter Z:)
+[2021.11.06-03.58.06:310][305]UATHelper: 打包 (Android (ASTC)): Making .apk with Gradle...
+[2021.11.06-03.58.07:518][357]UATHelper: 打包 (Android (ASTC)): To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+[2021.11.06-03.58.10:194][365]UATHelper: 打包 (Android (ASTC)): Daemon will be stopped at the end of the build stopping after processing
+[2021.11.06-03.58.16:877][385]UATHelper: 打包 (Android (ASTC)): > Task :app:preBuild UP-TO-DATE
+[2021.11.06-03.58.16:877][385]UATHelper: 打包 (Android (ASTC)): > Task :app:preDebugBuild UP-TO-DATE
+[2021.11.06-03.58.16:877][385]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:preBuild UP-TO-DATE
+[2021.11.06-03.58.16:877][385]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:preDebugBuild UP-TO-DATE
+[2021.11.06-03.58.16:877][385]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:compileDebugAidl NO-SOURCE
+[2021.11.06-03.58.16:877][385]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:preBuild UP-TO-DATE
+[2021.11.06-03.58.16:877][385]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:preDebugBuild UP-TO-DATE
+[2021.11.06-03.58.16:878][385]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:compileDebugAidl NO-SOURCE
+[2021.11.06-03.58.17:542][387]UATHelper: 打包 (Android (ASTC)): > Task :app:compileDebugAidl UP-TO-DATE
+[2021.11.06-03.58.17:542][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:packageDebugRenderscript NO-SOURCE
+[2021.11.06-03.58.17:542][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:packageDebugRenderscript NO-SOURCE
+[2021.11.06-03.58.17:542][387]UATHelper: 打包 (Android (ASTC)): > Task :app:compileDebugRenderscript NO-SOURCE
+[2021.11.06-03.58.17:542][387]UATHelper: 打包 (Android (ASTC)): > Task :app:checkDebugManifest UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :app:generateDebugBuildConfig UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:compileDebugRenderscript NO-SOURCE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:checkDebugManifest UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:generateDebugBuildConfig UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:generateDebugResValues UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:generateDebugResources UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:packageDebugResources UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:parseDebugLibraryResources UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:processDebugManifest UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:generateDebugRFile UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:javaPreCompileDebug UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:compileDebugJavaWithJavac UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:bundleLibCompileDebug UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:compileDebugRenderscript NO-SOURCE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:checkDebugManifest UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:generateDebugBuildConfig UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:generateDebugResValues UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:generateDebugResources UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:packageDebugResources UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:parseDebugLibraryResources UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:processDebugManifest UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:generateDebugRFile UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:javaPreCompileDebug UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:compileDebugJavaWithJavac UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:bundleLibCompileDebug UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :app:javaPreCompileDebug UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :app:mainApkListPersistenceDebug UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :app:generateDebugResValues UP-TO-DATE
+[2021.11.06-03.58.17:543][387]UATHelper: 打包 (Android (ASTC)): > Task :app:generateDebugResources UP-TO-DATE
+[2021.11.06-03.58.17:875][388]UATHelper: 打包 (Android (ASTC)): > Task :app:mergeDebugResources UP-TO-DATE
+[2021.11.06-03.58.17:875][388]UATHelper: 打包 (Android (ASTC)): > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+[2021.11.06-03.58.17:875][388]UATHelper: 打包 (Android (ASTC)): > Task :app:processDebugManifest UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :app:processDebugResources UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :app:compileDebugJavaWithJavac UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :app:compileDebugSources UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :app:mergeDebugShaders UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :app:compileDebugShaders UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :app:generateDebugAssets UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:mergeDebugShaders UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:compileDebugShaders UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:generateDebugAssets UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:packageDebugAssets UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:mergeDebugShaders UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:compileDebugShaders UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:generateDebugAssets UP-TO-DATE
+[2021.11.06-03.58.18:208][389]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:packageDebugAssets UP-TO-DATE
+[2021.11.06-03.58.21:559][399]UATHelper: 打包 (Android (ASTC)): > Task :app:mergeDebugAssets
+[2021.11.06-03.58.21:559][399]UATHelper: 打包 (Android (ASTC)): > Task :app:processDebugJavaRes NO-SOURCE
+[2021.11.06-03.58.21:559][399]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:processDebugJavaRes NO-SOURCE
+[2021.11.06-03.58.21:559][399]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:bundleLibResDebug UP-TO-DATE
+[2021.11.06-03.58.21:559][399]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:processDebugJavaRes NO-SOURCE
+[2021.11.06-03.58.21:559][399]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:bundleLibResDebug UP-TO-DATE
+[2021.11.06-03.58.21:891][400]UATHelper: 打包 (Android (ASTC)): > Task :app:mergeDebugJavaResource UP-TO-DATE
+[2021.11.06-03.58.21:891][400]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:bundleLibRuntimeDebug UP-TO-DATE
+[2021.11.06-03.58.21:891][400]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:bundleLibRuntimeDebug UP-TO-DATE
+[2021.11.06-03.58.21:891][400]UATHelper: 打包 (Android (ASTC)): > Task :app:checkDebugDuplicateClasses UP-TO-DATE
+[2021.11.06-03.58.21:891][400]UATHelper: 打包 (Android (ASTC)): > Task :app:mergeExtDexDebug UP-TO-DATE
+[2021.11.06-03.58.21:891][400]UATHelper: 打包 (Android (ASTC)): > Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+[2021.11.06-03.58.22:230][401]UATHelper: 打包 (Android (ASTC)): > Task :app:mergeDexDebug UP-TO-DATE
+[2021.11.06-03.58.22:230][401]UATHelper: 打包 (Android (ASTC)): > Task :app:validateSigningDebug UP-TO-DATE
+[2021.11.06-03.58.22:230][401]UATHelper: 打包 (Android (ASTC)): > Task :app:signingConfigWriterDebug UP-TO-DATE
+[2021.11.06-03.58.22:230][401]UATHelper: 打包 (Android (ASTC)): > Task :app:mergeDebugJniLibFolders UP-TO-DATE
+[2021.11.06-03.58.22:231][401]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:mergeDebugJniLibFolders UP-TO-DATE
+[2021.11.06-03.58.22:231][401]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:mergeDebugNativeLibs UP-TO-DATE
+[2021.11.06-03.58.22:231][401]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:stripDebugDebugSymbols UP-TO-DATE
+[2021.11.06-03.58.22:231][401]UATHelper: 打包 (Android (ASTC)): > Task :downloader_library:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+[2021.11.06-03.58.22:231][401]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:mergeDebugJniLibFolders UP-TO-DATE
+[2021.11.06-03.58.22:231][401]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:mergeDebugNativeLibs UP-TO-DATE
+[2021.11.06-03.58.22:231][401]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:stripDebugDebugSymbols UP-TO-DATE
+[2021.11.06-03.58.22:232][401]UATHelper: 打包 (Android (ASTC)): > Task :permission_library:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+[2021.11.06-03.58.22:232][401]UATHelper: 打包 (Android (ASTC)): > Task :app:mergeDebugNativeLibs UP-TO-DATE
+[2021.11.06-03.58.22:232][401]UATHelper: 打包 (Android (ASTC)): > Task :app:stripDebugDebugSymbols UP-TO-DATE
+[2021.11.06-03.58.33:297][434]UATHelper: 打包 (Android (ASTC)): > Task :app:packageDebug
+[2021.11.06-03.58.33:297][434]UATHelper: 打包 (Android (ASTC)): > Task :app:assembleDebug
+[2021.11.06-03.58.39:002][451]UATHelper: 打包 (Android (ASTC)): > Task :app:ue4CompleteDebug
+[2021.11.06-03.58.39:002][451]UATHelper: 打包 (Android (ASTC)): BUILD SUCCESSFUL in 32s
+[2021.11.06-03.58.39:002][451]UATHelper: 打包 (Android (ASTC)): 64 actionable tasks: 3 executed, 61 up-to-date
+[2021.11.06-03.58.39:335][452]UATHelper: 打包 (Android (ASTC)): Writing symbols to H:\UE4_home4\Binaries/Android\UE4_home4_Symbols_v1/UE4_home4-armv7\libUE4.so
+[2021.11.06-03.58.44:360][467]UATHelper: 打包 (Android (ASTC)): ====2021/11/6 11:58:44====COMPLETED MAKE APK=======================================================================
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): Using this aapt: C:/Andiord_SDK\build-tools\31.0.0\aapt.exe
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): GetPackageInfo ReturnValue: com.YourCompany.UE4_home4
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): Writing bat for install with data in APK
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): Writing bat for uninstall with data in APK
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): ********** PACKAGE COMMAND COMPLETED **********
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): ********** ARCHIVE COMMAND STARTED **********
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): Archiving to I:/desktop/bag
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): GetPackageInfo ReturnValue: com.YourCompany.UE4_home4
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): GetPackageInfo ReturnValue: 1
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): GetPackageInfo ReturnValue: com.YourCompany.UE4_home4
+[2021.11.06-03.58.44:693][468]UATHelper: 打包 (Android (ASTC)): GetPackageInfo ReturnValue: 1
+[2021.11.06-03.58.45:704][471]UATHelper: 打包 (Android (ASTC)): ********** ARCHIVE COMMAND COMPLETED **********
+[2021.11.06-03.58.45:704][471]UATHelper: 打包 (Android (ASTC)): BUILD SUCCESSFUL
+[2021.11.06-03.58.45:704][471]UATHelper: 打包 (Android (ASTC)): AutomationTool exiting with ExitCode=0 (Success)
